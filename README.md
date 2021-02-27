@@ -1,3 +1,5 @@
+#### **p.s. It's my first time using Vue.js so I might be doing anti-pattern (not best practices) things on this project. I apologize in advance.**
+
 ## This project is bootstrapped with [Vue.js](https://vuejs.org/) and [Vercel](https://vercel.com/)
 
 ### See it live [Tracktik-Challenge](https://tracktik-challenge-fe.vercel.app/).
