@@ -1,0 +1,64 @@
+@font-face {
+  font-family: CerealBlack;
+  src: url("../assets/fonts/AirbnbCerealBlack.ttf");
+}
+@font-face {
+  font-family: CerealBold;
+  src: url("../assets/fonts/AirbnbCerealBold.ttf");
+}
+@font-face {
+  font-family: CerealBook;
+  src: url("../assets/fonts/AirbnbCerealBook.ttf");
+}
+@font-face {
+  font-family: CerealExtraBold;
+  src: url("../assets/fonts/AirbnbCerealExtraBold.ttf");
+}
+@font-face {
+  font-family: CerealLight;
+  src: url("../assets/fonts/AirbnbCerealLight.ttf");
+}
+@font-face {
+  font-family: CerealMedium;
+  src: url("../assets/fonts/AirbnbCerealMedium.ttf");
+}
+
+:root {
+  --color-blue-main: #0084bd;
+  --color-blue-secondary: #00bce3;
+  --color-white-main: #fff;
+  --color-off-white-main: #eaedec;
+  --color-grey-main: #969696;
+  --color-grey-secondary: #686868;
+
+  --font-size-L: 1.75rem;
+  --font-size-M: 1.25rem;
+  --font-size-S: 1.1rem;
+
+  --border-radius: 0.35rem;
+
+  --svg-fill-white: invert(100%) sepia(0%) saturate(2%) hue-rotate(290deg)
+    brightness(110%) contrast(101%);
+  --svg-fill-grey: invert(95%) sepia(0%) saturate(1106%) hue-rotate(151deg)
+    brightness(95%) contrast(81%);
+  --svg-fill-darkgrey: invert(95%) sepia(0%) saturate(1106%) hue-rotate(151deg)
+    brightness(75%) contrast(81%);
+
+  --box-shadow-main: 0 1px 1px rgba(0, 0, 0, 0.15),
+    0 2px 2px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.15),
+    0 8px 8px rgba(0, 0, 0, 0.15);
+
+  --box-shadow-secondary: 0 3px 5px rgba(0, 0, 0, 0.16);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
