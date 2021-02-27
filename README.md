@@ -1,19 +1,25 @@
-# tracktik-challenge-fe
+## This project is bootstrapped with [Vue.js](https://vuejs.org/) and [Vercel](https://vercel.com/)
 
-## Project setup
-```
-npm install
-```
+### See it live [Tracktik-Challenge](https://tracktik-challenge-fe.vercel.app/).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Getting Started
 
-### Compiles and minifies for production
-```
-npm run build
+This app uses `.env.local`. Please check the `.env.local.example`
+
+```javascript
+VUE_APP_TRACKTIK_SITES_API =
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+After cloning the repository, `run`
+
+```javascript
+> npm install
+```
+
+To run the development server, `run`
+
+```javascript
+> npm run serve
+```
+
+Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
